@@ -1,0 +1,138 @@
+* {
+  margin: 2px;
+  padding: 2px;
+  box-sizing: border-box;
+  font-family: cursive;
+  
+}
+html{
+  background-color: black;
+  height: 100vh;
+  overflow:hidden ;
+  background-image: url(./resturnat.png);
+ 
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+
+h1 {
+    color: rgb(255, 166, 0);
+}
+
+.container {
+  position: relative;
+  border-radius: 5px;
+  padding: 20px 0 30px 0;
+}
+
+
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  
+}
+
+input:hover,
+.btn:hover {
+  opacity: 10;
+}
+
+
+input[type="submit"] {
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #ffffff;
+  color: orange;
+}
+
+
+a.bottom-container {
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+
+
+
+.bottom-container {
+  
+  text-align: center;
+  background-color: orange;
+width:100%;
+  border-radius: 0px 0px 4px 4px;
+}
+
+@media screen and (max-width: 650px) {
+  a {
+    margin-top: 0;
+  }
+  
+  
+}
+nav.navbar {
+  width: 100%;
+  background-color: orange;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar a {
+  text-align: center;
+  padding: 2px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+.navbar a:hover {
+  background-color: #ffffff;
+  color: orange;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  color: orange;
+  font-size: 30px;
+  border: 2px solid white;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+  border-radius: 10px;
+  
+}
+
+a.logo{
+  position: absolute;
+  left: 16px;
+  top: 8px;
+  color: white;
+  font-size: 30px;
+}

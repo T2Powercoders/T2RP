@@ -1,0 +1,44 @@
+
+* {
+  margin: 2px;
+  padding: 2px;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+nav.navbar {
+  width: 100%;
+  background-color: orange;
+  overflow: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar a {
+  text-align: center;
+  padding: 2px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ffffff;
+  color: orange;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+a.logo{
+  position: absolute;
+  left: 16px;
+  top: 4px;
+  color: white;
+  font-size: 30px;
+}
+
+
