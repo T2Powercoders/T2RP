@@ -7,58 +7,60 @@
 
 html {
     font-size: 62.5%;
+    background: black;
 }
 
-/* header {
+header {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid black;
+    background-color: orange;
+    margin: 1rem;
 }
 
 header h1 {
     margin: 1rem;
 }
 
-ul {
+
+
+
+nav ul {
     display: flex;
     justify-content: space-between;
 }
 
-li {
-    margin: 2rem;
+
+nav ul li {
+    margin: 1rem;
     list-style: none;
 }
 
-a {
+header h1 a,
+nav ul li a {
     text-decoration: none;
-    font-size: 1.3rem;
-} */
+    font-size: 1.7rem;
+    color: white;
+
+}
 
 main {
     display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-}
-
-section {
-    padding: 2rem;
-    border: 1px solid black;
-    width: 90%;
-    border-radius: 1rem;
-}
-
-form {
-    display: flex;
+    align-items: center;
     flex-direction: column;
+
 }
 
-input {
-    margin: 1rem;
+article {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    border: 1px solid white;
+    width: 90%;
     padding: 1rem;
-    border: none;
-    border-bottom: 1px solid black;
+    border-radius: 1rem;
+    color: white;
 }
 
-button {
-    padding: 1rem;
+article a img {
+    width: 5rem;
 }

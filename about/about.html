@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>T2RT</title>
+  </head>
+
+  <body>
+    <header>
+      <h1><a href="#" class="logo">T2RP</a></h1>
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="../about page/about.html"
+              ><i class="fa fa-fw fa-home"></i>Home</a
+            >
+          </li>
+          <li>
+            <a href="./index.html"
+              ><i class="fa fa-fw fa-envelope"></i>Events</a
+            >
+          </li>
+          <li>
+            <a href="../login page/login.html"
+              ><i class="fa fa-fw fa-user"></i> Login</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <div>
+          <h2>Lorem ipsum dolor</h2>
+          <h3>21.12.2021</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+            blanditiis!
+          </p>
+        </div>
+        <a href="add.html"
+          ><img src="./outline_add_white_48dp.png" alt="add"
+        /></a>
+      </article>
+    </main>
+
+    <p>Google Calendar API Quickstart</p>
+
+    <!--Add buttons to initiate auth sequence and sign out-->
+    <button id="authorize_button" style="display: none">Authorize</button>
+    <button id="signout_button" style="display: none">Sign Out</button>
+    <pre id="content" style="white-space: pre-wrap"></pre>
+
+    <script src="./javascript/script.js"></script>
+
+    <script
+      async
+      defer
+      src="https://apis.google.com/js/api.js"
+      onload="this.onload=function(){};handleClientLoad()"
+      onreadystatechange="if (this.readyState === 'complete') this.onload()"
+    ></script>
+  </body>
+</html>
