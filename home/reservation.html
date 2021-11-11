@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="res.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>Google Calendar API Quickstart</p>
+    <!--Add buttons to initiate auth sequence and sign out-->
+    <button id="authorize_button" style="display: none">Authorize</button>
+    <button id="signout_button" style="display: none">Sign Out</button>
+    <button id="checkEventList">Check My Event List</button>
+    <pre id="content" style="white-space: pre-wrap"></pre>
+    <div class="checkListForm" style="display: none">
+      <label for="cancelPhone">Phone Number</label>
+      <input type="number" id="cancelPhone" />
+      <button id="checkList">List</button>
+      <button id="reservationPage">Back</button>
+
+      <pre id="content2" style="white-space: pre-wrap"></pre>
+    </div>
+    <div class="addEventForm">
+      <label for="reservationDate">Reservation Date</label><br />
+      <input type="date" id="reservationDate" name="rdate" /><br />
+      <label for="reservationTime">Time</label><br />
+      <input type="time" id="reservationTime" name="rtime" /><br />
+      <label for="firstName">First name:</label><br />
+      <input type="text" id="firstName" name="fname" /><br />
+      <label for="lastName">Last name:</label><br />
+      <input type="text" id="lastName" name="lname" /><br />
+      <label for="guestNumber">Number of Guest</label><br />
+      <input type="number" id="guestNumber" name="gnumber" /><br />
+      <label for="phoneNumber">Phone Number</label><br />
+      <input type="number" id="phoneNumber" name="pnumber" /><br />
+
+      <label for="description">Description</label><br />
+      <input type="text" id="description" name="description" /><br />
+      <button onclick="reservation()">Reservation</button>
+    </div>
+
+    <script src="script2.js"></script>
+    <script
+      async
+      defer
+      src="https://apis.google.com/js/api.js"
+      onload="this.onload=function(){};handleClientLoad()"
+      onreadystatechange="if (this.readyState === 'complete') this.onload()"
+    ></script>
+  </body>
+</html>
