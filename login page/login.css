@@ -2,22 +2,23 @@
   margin: 2px;
   padding: 2px;
   box-sizing: border-box;
-  font-family: cursive;
-  
+  font-family: Arial, Helvetica, sans-serif;
+
 }
-html{
+
+html {
   background-color: black;
   height: 100vh;
-  overflow:hidden ;
+  overflow: hidden;
   background-image: url(./resturnat.png);
- 
+
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
 }
 
 
 h1 {
-    color: rgb(255, 166, 0);
+  color: rgb(255, 166, 0);
 }
 
 .container {
@@ -39,7 +40,7 @@ input,
   font-size: 17px;
   line-height: 20px;
   text-decoration: none;
-  
+
 }
 
 input:hover,
@@ -71,10 +72,10 @@ a.bottom-container {
 
 
 .bottom-container {
-  
+
   text-align: center;
   background-color: orange;
-width:100%;
+  width: 100%;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -82,9 +83,10 @@ width:100%;
   a {
     margin-top: 0;
   }
-  
-  
+
+
 }
+
 nav.navbar {
   width: 100%;
   background-color: orange;
@@ -98,7 +100,7 @@ nav.navbar {
   color: white;
   text-decoration: none;
   font-size: 17px;
-  
+
 }
 
 .navbar a:hover {
@@ -126,10 +128,10 @@ p {
   text-align: center;
   background-color: rgb(245, 245, 245);
   border-radius: 10px;
-  
+
 }
 
-a.logo{
+a.logo {
   position: absolute;
   left: 16px;
   top: 8px;
